@@ -232,7 +232,7 @@ namespace ATM
                 
             }
             Console.WriteLine("dosya oluşturuldu.");
-            string file = @"C:\Users\ELİF\Desktop\EOD_" + DateTime.Now.ToString("ddMMyyyy") + ".txt";
+            string file = @"C:\Kullanici\EOD_" + DateTime.Now.ToString("ddMMyyyy") + ".txt";
             File.WriteAllText(file, basariligirisfile+fraudgirisfile);
         }
     }
