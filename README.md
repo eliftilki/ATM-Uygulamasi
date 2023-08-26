@@ -1,7 +1,9 @@
 # ATM Uygulamasi
-PatikaDev c# eğitimi projem
-# özellikler
-- Uygulama ilk çalıştığında kullanıcıdan yamak istediği işlemi öğrenmelidir.
-- Bunlar ATM üzerinden yapılabilecek işlemledir: Para çekme, para yatırma.
-- Öncelikle ATM ye giriş yapan kullanıcın sistemde kayıtlı bir kullanıcı olduğundan emin olunmalıdır.
-- Uygulamada bir de gün sonu seçeneği olmalıdır. Gün sonu alınmak istendiğinde, gün içerisinde yapılan transaction'ların logları ve fraud olabilecek yani hatalı giriş denemeleri log gösterilmelidir. Aynı client'ın bilgisayarında belirlenen bir lokasyona EOD_Tarih(DDMMYYY formatında).txt adında bir dosyaya yazılmalıdır.
+I made this project as my Patika.Dev The Beginner .Net Core Path project.
+## Introduction
+In this project I made a ATM that works 7/24. At the end of the day an in charge can access all the transactions. 
+## Features
+- Withdrawal
+- Load money
+- First of all program ensures the user is an official user.
+- Pragram makes EOD_Tarih(DDMMYYY).txt file that includes fraud and succesful logs.
